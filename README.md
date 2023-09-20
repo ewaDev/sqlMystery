@@ -13,7 +13,30 @@ Here is the link to the [page](https://mystery.knightlab.com/#experienced).
 Exercise:   
 A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a ​murder​ that occurred sometime on ​Jan.15, 2018​ and that it took place in ​SQL City​. Start by retrieving the corresponding crime scene report from the police department’s database.
 
-Here are some hints. There are many ways in which you can extract this data, this is just a hand
+Here are some hints. There are many ways in which you can extract this data, this is just a handy guide to help you along the way 
+
+If you need a cheat sheet of SQL syntax, you can expans rhe tag below
+<details>
+<summary><b>SQL cheat sheet</b></summary>
+
+| Query Description                              | SQL Query                                                                  |
+|------------------------------------------------|----------------------------------------------------------------------------|
+| Retrieve all columns from a table              | `SELECT * FROM table_name;`                                                |
+| Retrieve specific columns from a table         | `SELECT column1, column2 FROM table_name;`                                 |
+| Retrieve distinct values from a column         | `SELECT DISTINCT column_name FROM table_name;`                             |
+| Filter rows based on a condition               | `SELECT * FROM table_name WHERE condition;`                                |
+| Provide alternative filter                     | `SELECT * FROM table_name WHERE condition OR condition`                    |
+| Sort results in ascending order                | `SELECT * FROM table_name ORDER BY column_name ASC;`                       |
+| Sort results in descending order               | `SELECT * FROM table_name ORDER BY column_name DESC;`                      |
+| Inner Join between two tables                  | `SELECT * FROM table1 JOIN table2 ON table1.column = table2.column;`       |
+| Left Join (Retrieve all from the left table)   | `SELECT * FROM table1 LEFT JOIN table2 ON table1.column = table2.column;`  |
+| Right Join (Retrieve all from the right table) | `SELECT * FROM table1 RIGHT JOIN table2 ON table1.column = table2.column;` |
+
+
+</details>
+
+
+
 <details>
 <summary><b>Step 1  - Getting the crime scene description</b></summary>
 
