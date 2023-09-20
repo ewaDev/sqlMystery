@@ -15,7 +15,7 @@ A crime has taken place and the detective needs your help. The detective gave yo
 
 Here are some hints. There are many ways in which you can extract this data, this is just a handy guide to help you along the way 
 
-If you need a cheat sheet of SQL syntax, you can expans rhe tag below
+If you need a cheat sheet of SQL syntax, you can expand the tag below
 <details>
 <summary><b>SQL cheat sheet</b></summary>
 
