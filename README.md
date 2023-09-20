@@ -1,7 +1,7 @@
 # CodeCraft SQL Mystery!
 
 Hello and welcome to the event, the format will consist of splitting into groups of 4-5 and figuring out a whodunnit.
-It is recommended that you firstly agree how you will run the session between yoursleves.
+It is recommended that you firstly agree how you will run the session between yourselves.
 You can either have one person driving and sharing their screen, or you can take turns every couple of minutes. It is up to you!
 
 Here is a link to the [schema diagram](https://mystery.knightlab.com/schema.png) for the mystery
