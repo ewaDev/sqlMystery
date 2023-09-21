@@ -5,7 +5,7 @@ It is recommended that you firstly agree how you will run the session between yo
 You can either have one person driving and sharing their screen, or you can take turns every couple of minutes. It is up to you!
 
 Here is a link to the [schema diagram](https://mystery.knightlab.com/schema.png) for the mystery
-Here is the link to the [page](https://mystery.knightlab.com/#experienced). 
+Here is the link to the [page](https://mystery.knightlab.com/#experienced).  
 
 
 
@@ -191,6 +191,10 @@ WHERE p.id IN ('28819', '67318')
 
 ***
 
+<details>
+<summary>Next steps in your your sql journey</summary>
+
+DUM DUM DUUUUUM! You found out there was more to the story than meets the eye.
 
 Complete the extra challenge if you have time - you should have all the tools now from your earlier work!
 
@@ -206,7 +210,7 @@ WHERE person_id = 67318
 </details>
 
 <details>
-<summary><b>Step 2 - Look for the car (SOLUTION ONLY)</b></summary>
+<summary><b>Step 2 - Look for the other clues(SOLUTION ONLY)</b></summary>
 
 ```SQL
 SELECT id 
@@ -224,4 +228,5 @@ SELECT *
 FROM person 
 WHERE license_id IN ('202298', '291182', '918773')
 ```
+</details>
 </details>
